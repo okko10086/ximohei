@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>作品集 · 五件 ｜ 戏墨黑 SC</title>
+<meta name="description" content="依据审美库实测规则产出的五件落地作品：字体官网、字体样册、二十四节气海报、电商 listing 版式、茶礼盒包装。">
+<link rel="icon" href="../img/seal.png">
+<style>
+:root{
+  --paper:#EFE7DA; --paper2:#F6F1E7; --ink:#14100E; --ink2:#2A211B; --ink3:#6B5C51;
+  --red:#B03A2E; --gold:#C9A961; --green:#4A5F55; --line:rgba(20,16,14,.14);
+  --hei:'Xi Mo Hei SC',-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
+  --song:'Songti SC','Source Han Serif SC',STSong,SimSun,serif;
+}
+@font-face{font-family:'Xi Mo Hei SC';src:url('../fonts/ximohai-medium.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:'Xi Mo Hei SC';src:url('../fonts/ximohai-heavy.woff2') format('woff2');font-weight:900;font-display:swap}
+@font-face{font-family:'Xi Mo Hei SC';src:url('../fonts/ximohai-light.woff2') format('woff2');font-weight:300;font-display:swap}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper) url('../img/paper-tile.png') repeat;background-size:560px;
+  color:var(--ink);font-family:var(--song);font-size:17px;line-height:1.9;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--ink);text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 6%}
+.en{font-family:var(--hei);font-weight:300;font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--ink3)}
+
+header{padding:11vh 0 6vh;border-bottom:1px solid var(--line)}
+h1{font-family:var(--hei);font-weight:900;font-size:clamp(44px,7vw,88px);line-height:1.06;
+  letter-spacing:.02em;margin:0 0 26px}
+.lede{max-width:34em;color:var(--ink2);margin:0 0 30px;border-left:2px solid var(--red);padding-left:20px}
+.meta{display:flex;flex-wrap:wrap;gap:0;border-top:1px solid rgba(20,16,14,.26);
+  border-bottom:1px solid rgba(20,16,14,.26);max-width:820px;list-style:none;padding:0;margin:0}
+.meta li{flex:1 1 150px;padding:16px 18px 14px;border-right:1px solid var(--line)}
+.meta li:last-child{border-right:0}
+.meta b{display:block;font-family:var(--hei);font-weight:500;font-size:21px;line-height:1.2}
+.meta span{font-family:var(--hei);font-weight:300;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink3)}
+
+main{padding:8vh 0 4vh}
+.work{display:grid;grid-template-columns:1.05fr 1fr;gap:5%;align-items:start;
+  padding:7vh 0;border-bottom:1px solid var(--line)}
+.work:last-of-type{border-bottom:0}
+.vol{font-family:var(--hei);font-weight:400;font-size:12px;letter-spacing:.3em;color:var(--red);
+  border:1px solid var(--red);padding:4px 10px;display:inline-block;margin-bottom:18px}
+.work h2{font-family:var(--song);font-weight:600;font-size:clamp(24px,3vw,34px);letter-spacing:.05em;margin:0 0 8px}
+.work .sub{font-family:var(--hei);font-weight:300;font-size:11px;letter-spacing:.28em;
+  text-transform:uppercase;color:var(--ink3);margin-bottom:22px}
+.work p{margin:0 0 1.1em;color:var(--ink2)}
+.work .figs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.work .figs.one{grid-template-columns:1fr}
+.work .figs img{border:1px solid var(--line)}
+.dl{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px}
+.btn{font-family:var(--hei);font-weight:400;font-size:13.5px;letter-spacing:.05em;
+  padding:11px 20px;background:var(--ink);color:var(--paper);border:1px solid var(--ink);transition:.2s}
+.btn:hover{background:var(--red);border-color:var(--red)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{background:transparent;color:var(--red);border-color:var(--red)}
+.tag{font-family:var(--hei);font-weight:300;font-size:11px;letter-spacing:.2em;color:var(--ink3);
+  display:inline-block;margin-right:14px}
+.warn{border:1px solid var(--red);padding:16px 18px;margin-top:20px;background:rgba(176,58,46,.05)}
+.warn b{color:var(--red)}
+.note{font-size:14.5px;color:var(--ink3);line-height:1.9}
+footer{padding:8vh 0 6vh;border-top:1px solid var(--line)}
+footer .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
+  font-family:var(--hei);font-weight:300;font-size:11px;letter-spacing:.28em;
+  text-transform:uppercase;color:var(--ink3)}
+@media(max-width:860px){.work{grid-template-columns:1fr;gap:4vh}.work .figs{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="en">WORKS · 2026</span>
+    <h1>作品集 · 五件</h1>
+    <p class="lede">依据<strong>审美库</strong>的实测规则产出——不是"看着好看"，
+      是每条数值都跟 5039 张同类样本比过、每条出带都写得出原因。五件刻意落在五个不同的面上。</p>
+    <ul class="meta">
+      <li><b>5</b><span>件作品</span></li>
+      <li><b>5</b><span>个媒介</span></li>
+      <li><b>3</b><span>道关卡</span></li>
+      <li><b>OFL</b><span>免费商用</span></li>
+    </ul>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ① -->
+  <section class="work">
+    <div>
+      <span class="vol">其一</span>
+      <h2>《戏墨黑 SC》字体发售落地页</h2>
+      <div class="sub">SCREEN · STATIC SITE</div>
+      <p>一款基于思源黑体改造的现代黑体（六字重、20,976 个基本区汉字、支持竖排）的发售页。
+        页面本身就是一张宣纸长卷：六字重可拖动对比、水墨标题体、竖排演示、试写区按需载入完整字库。</p>
+      <p class="note">技术要点：页面自用字体子集共 487 KB，试写区懒加载 GB2312 完整字库（3.2 MB）；
+        无 CDN、无追踪脚本、无 Cookie、不请求任何外部域名。</p>
+      <div class="dl">
+        <a class="btn" href="../index.html">打开落地页</a>
+        <a class="btn ghost" href="https://github.com/okko10086/ximohei" target="_blank" rel="noopener">源码仓库</a>
+      </div>
+    </div>
+    <div class="figs one">
+      <img src="img/specimen-03.jpg" alt="六字重展示" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ② -->
+  <section class="work">
+    <div>
+      <span class="vol">其二</span>
+      <h2>《戏墨黑 SC》字体样册</h2>
+      <div class="sub">PRINT · 210 × 285 MM · 15 PAGES</div>
+      <p>15 页印刷级样册：封面、定位、六字重、字号梯度、正文实测、字面对比、变形原理、字符集、
+        标点、水墨标题体、竖排、应用两页、授权、封底。</p>
+      <p class="note">交付两版：<b>成品版</b>（210×285 mm，屏幕阅读/数码印刷）与
+        <b>出血印刷版</b>（216×291 mm + 四角裁切标记，送印母版）。
+        版面尺寸写成真实物理尺寸（595.28 × 807.87 pt）——直接把位图塞进 PDF 会得到 87 cm 的巨页。</p>
+      <div class="dl">
+        <a class="btn" href="https://github.com/okko10086/ximohei/releases/download/v1.0/SC_._210x285.pdf">下载成品版 PDF（38 MB）</a>
+        <a class="btn ghost" href="https://github.com/okko10086/ximohei/releases/download/v1.0/SC_._.3mm_.pdf">出血印刷版（35 MB）</a>
+      </div>
+      <div class="warn"><b>⚠ 印刷前必读</b><br>
+        <span class="note">这是 <b>RGB 母版，不是 CMYK 成品</b>。CMYK 需印厂按其色彩配置转换并打样确认——
+        HEX 现转会偏，绿橙最明显。</span></div>
+    </div>
+    <div class="figs">
+      <img src="img/specimen-01.jpg" alt="样册封面" loading="lazy">
+      <img src="img/specimen-10.jpg" alt="水墨标题体页" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ③ -->
+  <section class="work">
+    <div>
+      <span class="vol">其三</span>
+      <h2>二十四节气 · 秋冬六帧</h2>
+      <div class="sub">SOCIAL · 1080 × 1440 × 6</div>
+      <p>霜降 / 立冬 / 小雪 / 大雪 / 冬至 / 小寒。中式六条落地：单色底、一个"圆"当视觉锚、
+        水墨远山从下缘伸入造纵深、大留白、竖排承担小字。</p>
+      <p class="note"><b>日期是算出来的，不是查来的</b>：用 Meeus 太阳视黄经公式算到"过 15° 整数倍"的时刻，
+        再拿国立天文台已公布的 2026 春分 3/20、秋分 9/23 反向验证一致。
+        ⚠️ 冬至是 <b>12 月 22 日</b>，不是 21 日。</p>
+      <p class="note">系列不散靠的不是"注意保持一致"，而是<b>位置全部写死</b>——
+        六张共用同一套坐标，唯一的变量是内容。</p>
+      <div class="dl">
+        <a class="btn" href="https://github.com/okko10086/ximohei/releases/download/v1.0/_._1080x1440.zip">下载六张（12 MB）</a>
+      </div>
+    </div>
+    <div class="figs">
+      <img src="img/jieqi-dongzhi.jpg" alt="冬至" loading="lazy">
+      <img src="img/jieqi-daxue.jpg" alt="大雪" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ④ -->
+  <section class="work">
+    <div>
+      <span class="vol">其四</span>
+      <h2>戏红饰 · 电商 listing 版式样板</h2>
+      <div class="sub">SHELF · 8 IMAGES</div>
+      <p>按审美库「电商 listing 12 类」落地八张版式：白底主图、三种工艺并列、尺寸线、
+        巨大数字单参数、三步佩戴、引线结构详解、两列对比、双色场景。</p>
+      <div class="warn"><b>⚠ 这一件不公开下载，原因写在明处</b><br>
+        <span class="note">产品图是 <b>AI 生成的示意物</b>，不是实物。两重原因不能当商品图发布：
+          ① 图文不符属虚假宣传风险；② 《人工智能生成合成内容标识办法》2025-09-01 已施行，
+          商业场景使用 AI 生成图像须显著标识。<br>
+          该件只保留在本地，且每张已烧入「示意 · AI 生成 · 以实物为准」。
+          <b>要上架：换成实拍图，版式原样复用。</b></span></div>
+      <p class="note" style="margin-top:18px">版式设计可公开复用的部分：八张的骨架坐标、字号层级、
+        引线规范、对比屏"两列同框"的处理方式。</p>
+    </div>
+    <div class="figs one">
+      <img src="img/listing.jpg" alt="listing 主图版式（示意）" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ⑤ -->
+  <section class="work">
+    <div>
+      <span class="vol">其五</span>
+      <h2>「戏墨」茶礼盒 · 包装印刷稿</h2>
+      <div class="sub">PHYSICAL · 210 × 210 × 60 MM</div>
+      <p>盒盖正面（击凸）、盒身背面、腰封（展开）、吊牌、提案页。全部含 3 mm 出血与四角裁切标记。</p>
+      <p class="note">击凸用<b>掩膜边缘法</b>模拟：字面无墨，只有左上缘受光、右下缘落影——
+        直接偏移叠两次会得到"白色重影"，看起来像套印不准而不是凹凸。</p>
+      <div class="warn"><b>⚠ 背面参数是【占位】</b><br>
+        <span class="note">产地、等级、执行标准、生产许可证号均为占位符，
+          须由持证生产企业据实填写后方可付印。</span></div>
+      <div class="dl">
+        <a class="btn" href="https://github.com/okko10086/ximohei/releases/download/v1.0/_._5._.zip">下载五件（16 MB）</a>
+      </div>
+    </div>
+    <div class="figs one">
+      <img src="img/package.jpg" alt="包装提案页" loading="lazy">
+    </div>
+  </section>
+
+  <!-- 字体下载 -->
+  <section class="work">
+    <div>
+      <span class="vol">字体</span>
+      <h2>下载戏墨黑 SC</h2>
+      <div class="sub">SIL OPEN FONT LICENSE 1.1 · 免费商用</div>
+      <p>桌面 OTF 六字重 + 水墨标题体两个字重。可以免费用于任何场景，包括商业用途；
+        不可单独售卖字体文件本身。</p>
+      <p class="note">保留字体名：<b>Xi Mo Hei</b> · <b>Xi Mo Hei SC</b> · <b>戏墨黑</b> · <b>戏墨黑 SC</b></p>
+      <div class="dl">
+        <a class="btn" href="https://github.com/okko10086/ximohei/releases/download/v1.0/SC_._._OTF.zip">桌面字体六字重（68 MB）</a>
+        <a class="btn" href="https://github.com/okko10086/ximohei/releases/download/v1.0/SC_._OTF.zip">水墨标题体（29 MB）</a>
+        <a class="btn ghost" href="../OFL.txt" target="_blank" rel="noopener">OFL 1.1 全文</a>
+      </div>
+    </div>
+    <div class="figs one">
+      <img src="img/specimen-03.jpg" alt="六字重" loading="lazy">
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <span>XI MO HEI SC · WORKS</span>
+      <span>SIL OFL 1.1</span>
+      <span><a href="../index.html">返回落地页</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
