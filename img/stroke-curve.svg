@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%">
+  <g font-family="-apple-system, sans-serif">
+    <line x1="56" y1="53.4" x2="692" y2="53.4" stroke="#14100E" stroke-opacity=".28" stroke-dasharray="4 5"/>
+    <polyline points="56.0,312.6 183.2,218.6 310.4,153.8 437.6,118.2 564.8,79.3 692.0,53.4" fill="none" stroke="#14100E" stroke-width="2.4"/>
+    <circle cx="56.0" cy="312.6" r="4" fill="#B03A2E"/><circle cx="183.2" cy="218.6" r="4" fill="#B03A2E"/><circle cx="310.4" cy="153.8" r="4" fill="#B03A2E"/><circle cx="437.6" cy="118.2" r="4" fill="#B03A2E"/><circle cx="564.8" cy="79.3" r="4" fill="#B03A2E"/><circle cx="692.0" cy="53.4" r="4" fill="#B03A2E"/><text x="56.0" y="298.6" font-size="15" fill="#8C1F28" text-anchor="middle" font-family="monospace">-7.4%</text><text x="183.2" y="204.6" font-size="15" fill="#8C1F28" text-anchor="middle" font-family="monospace">-4.5%</text><text x="310.4" y="139.8" font-size="15" fill="#8C1F28" text-anchor="middle" font-family="monospace">-2.5%</text><text x="437.6" y="104.2" font-size="15" fill="#8C1F28" text-anchor="middle" font-family="monospace">-1.4%</text><text x="564.8" y="65.3" font-size="15" fill="#8C1F28" text-anchor="middle" font-family="monospace">-0.2%</text><text x="692.0" y="39.4" font-size="15" fill="#8C1F28" text-anchor="middle" font-family="monospace">+0.6%</text>
+    <text x="56" y="366" font-size="15" fill="#2A211B">0.0 字面中心</text>
+    <text x="692" y="366" font-size="15" fill="#2A211B" text-anchor="end">1.0 字面边缘</text>
+    <text x="56" y="20" font-size="15" fill="#2A211B">净笔画变化（相对源字重）</text>
+    <text x="56" y="73.4" font-size="14" fill="#4A5F55">0% 线 — 不增粗的分界</text>
+  </g>
+</svg>
