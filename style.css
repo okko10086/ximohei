@@ -19,7 +19,7 @@
   --red:#B03A2E; --red-d:#8C1F28; --gold:#C9A961; --green:#4A5F55;
   --line:rgba(20,16,14,.14); --line2:rgba(20,16,14,.26);
   --hei:'Xi Mo Hei SC',-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
-  --song:'Songti SC','Source Han Serif SC','Noto Serif SC',STSong,SimSun,serif;
+  --song:'Xi Mo Hei SC',-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
   --max:1120px;
 }
 
@@ -27,7 +27,7 @@
 html{scroll-behavior:smooth}
 body{
   margin:0;color:var(--ink);background:var(--paper);
-  font-family:var(--song);font-size:17px;line-height:1.9;
+  font-family:var(--song);font-weight:350;font-size:16.5px;line-height:1.85;
   -webkit-font-smoothing:antialiased;
   background-image:url('img/paper-tile.png');background-size:560px 560px;
 }
