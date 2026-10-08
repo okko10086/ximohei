@@ -65,3 +65,19 @@ OFL 未对此设限。
 ---
 
 更新日期：2026-10-08
+
+---
+
+## 六、戏墨宋 SC / Xi Mo Song SC（2026-10 新增）
+
+- **来源**：基于 **Source Han Serif CN（思源宋体 CN）** 改造。
+  上游 © 2017–2024 Adobe，以 **SIL Open Font License 1.1** 发布。
+- **授权链**：与戏墨黑 SC 完全一致，见本文件第一节所述 OFL 1.1 第 1 条。
+- **保留字体名**：上游保留名同为 `Source`；本字体未使用。
+  本字体自行声明的保留名为 `Xi Mo Song` / `Xi Mo Song SC` / `戏墨宋` / `戏墨宋 SC`。
+- **字重**：Regular 400 / Medium 500 / SemiBold 600 / Heavy 900（四个）；
+  另有水墨标题体 `Xi Mo Song Ink SC`（SemiBold / Heavy 两个字重）。
+- **覆盖**：cmap 30,930 字符，基本区汉字 20,992、扩展 A 区 6,592。
+  保留 `GPOS` / `GSUB` 与 `vhea` / `vmtx` 竖排度量。
+- 网页子集命名：`xmosong-*.woff2` / `xmosongink-*.woff2`，
+  完整子集 `full-xmosong-*.woff2`（GB2312，7,771 字符）。
