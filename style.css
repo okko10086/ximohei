@@ -13,12 +13,6 @@
 @font-face{font-family:'Xi Mo Hei SC';src:url('fonts/ximohai-heavy.woff2') format('woff2');font-weight:900;font-display:swap}
 @font-face{font-family:'Xi Mo Ink SC';src:url('fonts/ximoink-bold.woff2') format('woff2');font-weight:700;font-display:swap}
 @font-face{font-family:'Xi Mo Ink SC';src:url('fonts/ximoink-heavy.woff2') format('woff2');font-weight:900;font-display:swap}
-@font-face{font-family:'Xi Mo Song SC';src:url('fonts/ximosong-regular.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:'Xi Mo Song SC';src:url('fonts/ximosong-medium.woff2') format('woff2');font-weight:500;font-display:swap}
-@font-face{font-family:'Xi Mo Song SC';src:url('fonts/ximosong-semibold.woff2') format('woff2');font-weight:600;font-display:swap}
-@font-face{font-family:'Xi Mo Song SC';src:url('fonts/ximosong-heavy.woff2') format('woff2');font-weight:900;font-display:swap}
-@font-face{font-family:'Xi Mo Ink Song SC';src:url('fonts/ximosongink-semibold.woff2') format('woff2');font-weight:600;font-display:swap}
-@font-face{font-family:'Xi Mo Ink Song SC';src:url('fonts/ximosongink-heavy.woff2') format('woff2');font-weight:900;font-display:swap}
 
 :root{
   --paper:#EFE7DA; --paper2:#F6F1E7; --ink:#14100E; --ink2:#2A211B; --ink3:#6B5C51;
@@ -26,9 +20,6 @@
   --line:rgba(20,16,14,.14); --line2:rgba(20,16,14,.26);
   --hei:'Xi Mo Hei SC',-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
   --song:'Xi Mo Hei SC',-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
-  --serif:'Songti SC','Source Han Serif SC','Noto Serif SC',STSong,SimSun,serif;
-  --xsong:'Xi Mo Song SC',var(--serif);
-  --xink:'Xi Mo Ink Song SC',var(--serif);
   --max:1120px;
 }
 
@@ -149,8 +140,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;
 .wlab{font-family:var(--hei);font-weight:300;font-size:11px;letter-spacing:.2em;
   color:var(--ink3);width:110px;flex:0 0 110px;text-transform:uppercase}
 .wlab i{font-style:normal;color:var(--red);margin-left:8px;letter-spacing:.06em}
-.wrow p{font-family:var(--hei);
-margin:0;font-size:64px;line-height:1.24;white-space:nowrap;
+.wrow p{font-family:var(--hei);margin:0;font-size:64px;line-height:1.24;white-space:nowrap;
   overflow:hidden;text-overflow:ellipsis}
 
 /* ── 水墨（深底） ─────────────────────────────────────────── */
@@ -276,7 +266,3 @@ margin:0;font-size:64px;line-height:1.24;white-space:nowrap;
   html{scroll-behavior:auto}
   .scroll-hint i::after{animation:none}
 }
-
-/* ── 戏墨宋：字重展示与水墨演示 ─────────────────────────── */
-.song-weights .wrow p{font-family:var(--xsong)}
-.song-ink p{font-family:var(--xink);font-weight:600}
