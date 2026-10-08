@@ -9,8 +9,14 @@
 
 - **来源**：由本项目基于 **Source Han Sans SC（思源黑体）** 改造而来。
   上游 © 2014–2021 Adobe，以 **SIL Open Font License 1.1** 发布。
-- **授权链**：OFL 1.1 第 2、3、5 条明确允许修改与再分发（含商用）。
-  本字体整体以 OFL 1.1 发布，许可证全文见 [`OFL.txt`](OFL.txt)，未附加任何额外限制。
+- **授权链**：OFL 1.1 的授权写在 **第 1 条 PERMISSION & CONDITIONS**——
+  原文为 "Permission is hereby granted, free of charge, to any person obtaining a copy of
+  the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell
+  modified and unmodified copies of the Font Software"。该授权**未按用途设限**，
+  且第 1 条末段明确 "The requirement for fonts to remain under this license does not
+  apply to any document created using the Font Software"，即**用本字体排出来的作品不受 OFL 约束**。
+  SIL 官方 FAQ 亦直接确认可用于商业用途。本字体整体以 OFL 1.1 发布，全文见
+  [`OFL.txt`](OFL.txt)，未附加任何额外限制。
 - **保留字体名**：上游保留名为 `Source`；本字体未使用该名称。
   本字体自行声明的保留字体名为 `Xi Mo Hei` / `Xi Mo Hei SC` / `戏墨黑` / `戏墨黑 SC`。
 - **未使用**任何商业字库的轮廓数据。全部改造由本项目自有脚本
