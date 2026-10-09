@@ -13,8 +13,10 @@
   原文为 "Permission is hereby granted, free of charge, to any person obtaining a copy of
   the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell
   modified and unmodified copies of the Font Software"。该授权**未按用途设限**，
-  且第 1 条末段明确 "The requirement for fonts to remain under this license does not
-  apply to any document created using the Font Software"，即**用本字体排出来的作品不受 OFL 约束**。
+  且第 1 条**第 5 款末句**明确 "The requirement for fonts to remain under this license
+  does not apply to any document created using the Font Software"，
+  即**用本字体排出来的作品不受 OFL 约束**（授权条款与豁免条款都属第 1 条，
+  但豁免在 5) 里，不在开头那句授权里——引条款要引到款）。
   SIL 官方 FAQ 亦直接确认可用于商业用途。本字体整体以 OFL 1.1 发布，全文见
   [`OFL.txt`](OFL.txt)，未附加任何额外限制。
 - **保留字体名**：上游保留名为 `Source`；本字体未使用该名称。

@@ -53,11 +53,6 @@ body { font-family: 'Xi Mo Hei SC', sans-serif; }
 变形严格限定为 `x′=f(x)`、`y′=g(y)`，两者不交叉——这是 Type 2 charstring
 编码正确性的硬约束（`hlineto` / `hvcurveto` 带隐式坐标，靠"相等"成立）。
 
-## 使用须知（给使用者）
-
-**[`使用须知.md`](使用须知.md)** —— 能不能商用、要不要署名、收到质疑怎么办，
-一页说清。做设计前花两分钟看一眼，能省掉很多顾虑。
-
 ## 来源与版权
 
 仓库内每一类内容的来源、授权链与不含项，见 [NOTICE.md](NOTICE.md)。
